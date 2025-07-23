@@ -1,0 +1,110 @@
+
+.find-job-maincontainer{
+    margin: 0;
+    padding: 0;
+   background-color: antiquewhite;
+}
+.find-job{
+    background-color: rgba(104, 15, 168, 0.856);
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.find-job-text{
+    justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 12px;
+}
+.find-job-text h1{
+    text-align: center;
+   padding-top: 10%;
+   font-size: 45px;
+
+}
+.find-job-text p{
+    text-align: center;
+    font-size: 20px;
+   
+}
+.find-job-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 12px;
+}
+
+.search-bar{
+   display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px 16px;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  position: relative; 
+  border: none; 
+ margin-bottom: 10%;
+}
+.icon {
+  color: gray;
+  margin-right: 8px;
+}
+
+ .input-field {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+.clear-btn {
+  background: none;
+  border: none;
+  color: gray;
+  font-size: 18px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  color: #333;
+}
+
+.find-jobs-btn {
+  background-color: #ef4444;
+  color: white;
+  font-weight: 600;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10%;
+}
+
+.find-jobs-btn:hover {
+  background-color: #dc2626;
+}
+.create-account{
+    margin-top: 0;
+    padding-bottom: 0;
+    background-color: antiquewhite;
+    color: rgba(104, 15, 168, 0.856);
+    text-align: center;
+    padding: 20px;
+}
+.create-account span{
+    color: #dc2626;
+}
+.create-account button{
+    border-color: #dc2626;
+    border-radius: 50px;
+    background:none;
+    padding: 15px;
+    width: 200px;
+    outline: none;
+    font-size: 15px;
+}

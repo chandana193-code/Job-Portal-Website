@@ -1,0 +1,62 @@
+.conatct-container{
+display: flex;
+flex-direction: column;
+background: url("https://media.istockphoto.com/id/1175053786/photo/empty-dark-blue-with-black-vignette-studio-well-use-as-background.jpg?s=612x612&w=0&k=20&c=IT9t6f8iXxkdjo9qJPVnBh2zgNdZyt8LxUMuZCKDBl4=");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 90vh;
+overflow: hidden;
+ 
+}
+.contactform{
+  width: 20%;
+  margin: 10% auto;
+  background-color: rgba(255, 255, 255, 0.80);
+  padding: 30px 60px;
+  border-radius: 15px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.contactform h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+ outline: none;
+}
+.contact-form input:hover{
+border-color: #2563eb;
+}
+.contact-form textarea:hover{
+border-color: #2563eb;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #1e40af;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  font-size: 18px;
+}

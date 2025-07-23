@@ -1,0 +1,53 @@
+.trust-safety-page {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.trust-section {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.trust-section h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 10px;
+  padding-top: 10%;
+}
+
+.tagline {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.trust-content h3 {
+  color: black;
+  margin-top: 20px;
+}
+
+.trust-content p {
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.trust-content ul {
+  padding-left: 20px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.trust-content ul li {
+  margin-bottom: 8px;
+}
+
+.closing-note {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+

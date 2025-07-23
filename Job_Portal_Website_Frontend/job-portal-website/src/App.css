@@ -1,0 +1,337 @@
+/* Header styling*/
+ .main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  position: fixed;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 0; 
+  align-items: center;
+  padding: 20px 60px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.left-part{
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px;  
+}
+
+
+.nav-links ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  padding: 0;
+  margin: 0;
+    
+}
+.nav-links button{
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.nav-links button:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.right-part ul{
+ display: flex;
+ gap: 10px;
+ list-style: none;
+ padding-right: 10px;
+}
+.right-part button{
+    font-size: 15px;
+ margin-left: 10px;
+  padding: 6px 12px;
+   
+}
+ .login{
+    background-color: white;
+    border-color: rgb(226, 225, 225);
+    border-radius: 10px;
+    
+ }
+ .employee-login{
+  background-color: white;
+    border-color: rgb(226, 225, 225);
+    border-radius: 10px;
+
+ }
+ 
+ .post-job{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+ }
+
+/* Home page styling */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.home-page {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.dropdown .dropbtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 63px;
+  background-color: white;
+  min-width: auto;
+  z-index: 1000;
+}
+
+.dropdown-content span {
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #333;
+}
+
+.dropdown-content span:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.welcome-section {
+  position: relative;
+  max-width: 100%;
+  margin-top: 7%;
+  max-width: 100%;
+  padding: 80px 20px 50px;
+  padding: 50px 20px;
+  background-image: url("https://media.istockphoto.com/id/1418112391/photo/modern-glass-facade-against-blue-sky-bottom-view-of-a-building-in-the-business-district.jpg?s=612x612&w=0&k=20&c=NW1tKBSTS5wsk98gBMr0xYsxnCO0s2Q_MtQ5Tf-EFQg=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.welcome-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.welcome-section .welcome-content {
+  position: relative;
+  z-index: 2;
+}
+
+.welcome-section h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.closing {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.why-choose-us,
+.how-it-works,
+.success-stories {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.how-it-works .steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.how-it-works .step {
+  width: 30%;
+  margin: 0 0 15px 0;
+}
+.success-stories h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.success-stories {
+  background-color: #f0f4f8;
+  padding: 30px 10px;
+  border-radius: 10px;
+}
+
+/* About page styling */
+
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.about-section {
+  max-width: 900px;
+  margin: 100px auto 60px;
+  padding: 40px;
+  text-align: left;
+}
+
+.about-section h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-content h3 {
+  color: #d2037f;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.about-content ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-content li {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.closing-note {
+  font-weight: bold;
+  font-size: 17px;
+  color: #222;
+  margin-top: 30px;
+}
+
+
+/*Company list styling*/
+.company-list {
+  padding: 30px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  
+}
+.dropdown-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.company-list h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  padding-top: 10%;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  
+}
+
+.company-details h3 {
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.job-card h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.job-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.job-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+

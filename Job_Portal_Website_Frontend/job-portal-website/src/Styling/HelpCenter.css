@@ -1,0 +1,81 @@
+.help-center {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.help-container {
+  max-width: auto;
+  margin: 80px auto 40px;
+  padding: 0 20px;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  
+}
+ 
+h2{
+    margin-top: 5px;
+    text-align: center;
+}
+.faq-section {
+  margin-bottom: 50px;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.faq-item h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.contact-card {
+  padding: 25px;
+  text-align: center;
+}
+
+.contact-card h3 {
+  font-size: 1.3rem;
+  color: white;
+  font-size: 30px;
+
+}
+.contact-card button {
+border:none;
+outline: none;
+padding: 20px;
+width: 20%;
+background-color: orangered;
+border-radius: 50px;
+font-size: 15px;
+font-weight: 600;
+}
+.contact-card button:hover{
+   background-color: rgb(251, 110, 59); 
+}

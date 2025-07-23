@@ -1,0 +1,65 @@
+.employer-dashboard {
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+.employer-dashboard h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.resume-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.resume-table th,
+.resume-table td {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.resume-table th{
+border-bottom: 1px solid #c4c3c3;
+}
+
+.resume-table td{
+border-bottom: 1px solid #ebeaea;
+}
+.resume-table th {
+  background-color: #e3e3e3;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resume-table td {
+  color: #333;
+}
+
+.resume-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.resume-table button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.resume-table button:hover {
+  background-color: #218838;
+}
